@@ -1,0 +1,26 @@
+#bdy{
+    background-color:darkslategray;
+    width: 1920px 1080px;
+    background-color: ;
+}
+.topnav{
+    background-color: rgb(178, 160, 113);
+    overflow: hidden;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 12px 16px;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 15px;
+    float: left;
+}
+.topnav a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+.topnav a.active{
+    background-color: grey;
+    color: aliceblue;
+}
