@@ -1,8 +1,8 @@
 #bdy{
     background-color:darkslategray;
     width: 1920px 1080px;
-    background-color: ;
 }
+
 .topnav{
     background-color: rgb(178, 160, 113);
     overflow: hidden;
@@ -22,5 +22,39 @@
 }
 .topnav a.active{
     background-color: grey;
+    color: black;
+}
+.topnav input[type=text]{
+    padding: none;
+    margin: 10px 10px 10px 10px;
+    background:rgb(215, 213, 212);
+    height: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#mg{
+    background: rgb(215, 213, 212);
+    height: 20px;
+}
+#submit{
+    background: transparent;
+    color: black;
+    margin-top: 15%;
+    margin-left: 37%;
+    margin-bottom: 15%;
+    height: 70px;
+    width: 130px;
+    padding: 4px;
+}
+#enquiry{
     color: aliceblue;
+    background-color: black;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    height: 70px;
+    width: 130px;
+    padding: 4px;
+}
+.sec{
+    background-image: url("/images/aesthetic.jpg");
 }
